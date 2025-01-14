@@ -1,0 +1,78 @@
+/*................................................. CSS resets and normalize .................................................
+CSS properties, applied to elements directly, that will make behavior between browser consistent and normalized ion all projects.
+1) Box-model & scroll:
+    a) to avoid borders around the screen like in a frame. By doing this we also guarantee that 100vw/vh = 100% of screen width/height;
+    b) this allow us not only to always have a precise control over the element's dimensions but also to vertically center text inside 
+       elements (that cannot be "flex" for some reason) by using padding without breaking the element box. Note that when using 
+       "position: relative" or "position: absolute", the positioning will be on the content, not the external box of the element 
+       thus independent of borders and padding sizes;
+    c) browser automatically will apply this effect during scrolling to anchor links (e.g. #fragment hash part in url automatically
+    triggers page scrolling on load to the link with the id="fragment"). When this property is specified on the root element, it
+    applies to the viewport instead;
+2) Flex properties - Make all elements (except scrip, span and style) flex and override some "flex" default properties.
+   To guarantee that "flex" values are respected when they contain children with intrinsic "width" larger that our "flex".
+      See: https://stackoverflow.com/questions/43459848/why-an-img-is-larger-than-flex-basis-with-flex-grow-0;
+3) Override default properties for links without the ".default" class;
+4) To avoid default image distortion for some image ratios;
+5) To:
+    a) prevent text to start/end right at the side borders;
+    b) to prevent the user to resize and break textareas;
+    c) to style placeholder text;
+    d) to uniformize between browsers;
+    e) to remove the blue outline when on focus in Chrome;
+7) a) To make sure when we have text on divs, such as in tables on labels, when it takes 2 lines it is centered;
+   b) To make sure text, except in paragraphs and divs, don't wrap;
+9) To avoid that simple taps/clicks on HTML elements can trigger the long tap event on mobile in an undesired way
+    a) we prevent user selection in all html elements...;
+    b) ...but then we override it for these elements where we want to allow it;
+............................................................................................................................*/
+                                /*................. 1) Box-model & scroll ..................*/
+* { margin: 0; padding: 0; }                                                                                                  /*(1a)*/
+
+body, body *:not(script):not(span) { box-sizing: border-box; }                                                                /*(1b)*/
+
+html { scroll-behavior: smooth; }                                                                                             /*(1c)*/
+                                /*................... 2) Flex properties ...................*/
+body, body *:not(script):not(span):not(style):not(table):not(table *):not(dl):not(dl *){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
+  min-width: 0;
+  min-height: 0;                                                                                                              /*(2a)*/
+}
+                                /*...................... 3) Links ..........................*/
+a:not(.default):link { text-decoration: none; color: inherit; }
+a:not(.default):visited { color: inherit; }
+a:not(.default):hover { color: inherit; }
+a:not(.default):active { color: inherit; }
+                                /*...................... 4) Images .........................*/
+img { object-fit: contain; }
+                                /*.......... 5) Inputs, textareas, buttons & meters ........*/
+input, textarea, button {
+  padding: 0.5rem;                                                                                                            /*(5a)*/
+  border: solid 0.1rem grey;
+  font-size: inherit;                                                                                                         /*(5d)*/
+  font-family: inherit;                                                                                                       /*(5d)*/
+}
+textarea { resize: none; }                                                                                                    /*(5b)*/
+::placeholder { font-weight: 500; }                                                                                           /*(5c)*/
+button:focus { outline: 0; }                                                                                                  /*(5e)*/
+                                /*................. 6) Heading properties ..................*/
+h1 { font-size: 4rem; font-weight: bold; margin: 1rem 0.5rem; }
+h2 { font-size: 3rem; font-weight: bold; margin: 1rem 0.5rem; }
+h3 { font-size: 2rem; font-weight: bold; margin: 0.75rem 0.5rem; }
+h4 { font-size: 1.5rem; font-weight: bold; margin: 0.5rem 0.5rem; }
+                                /*....................... 7) Text ..........................*/
+div { text-align: center; }
+button { text-wrap: nowrap; }
+                                /*...................... 8) iFrames ........................*/
+iframe { border: 0; }
+                                /*.................. 9) Mobile selection ...................*/
+* { -webkit-user-select: none; user-select: none; }                                                                           /*(11)a*/
+
+span, p, h1, h2, h3, h4, h5, input, textarea, .textSelect {                                                                   /*(11b)*/
+  -webkit-user-select: text;
+  user-select: text;
+}

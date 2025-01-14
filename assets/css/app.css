@@ -1,0 +1,36 @@
+/*.................................................. Learnings ...............................................................
+1) Import other CSS from other css files so that "Webpack" can build a single css file in "priv" folder
+  a) Resets and normalize properties to make sure we have the same standard behavior in all browsers - common for all projects!;
+  b) Specific properties to this project;
+  c) Injects animations;
+  d) Injects at compile time the CSS common rules for all the svg icons defined in the "svg_icons.ex" file;
+............................................................................................................................*/
+                                /*.................... 1) Css imports ......................*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "reset.css";                                                                                                          /*(1a)*/
+@import "project.css";                                                                                                        /*(1b)*/
+@import "anim.css";                                                                                                           /*(1c)*/
+@import "svgicons.css";                                                                                                       /*(1d)*/
+@import "external.css";                                                                                                       /*(1e)*/
+
+/*
+Advantage of this approach of css files:
+- keeps Tailwind available for the default Phoenix components but prefer plain CSS for your own code;
+- uses a modular CSS approach with separate files for different concerns;
+- has good foundational resets and normalizations;
+- makes everything flex by default which:
+  a) provides consistent centering;
+  b) simplifies layout management;
+  c) avoids the need for display: block;
+- handles media elements through:
+  a) flex container behavior;
+  b) object-fit for image handling;
+- manages form elements with:
+  a) consistent spacing;
+  b) inherited typography;
+  c) uniform borders;
+  d) placeholder styling;
+*/

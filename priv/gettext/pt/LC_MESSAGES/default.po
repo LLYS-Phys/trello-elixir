@@ -1,0 +1,1447 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:44
+#, elixir-autogen, elixir-format
+msgid "  Information in this website in not fully detailed and may contain some imprecision or suffer from not being completely\n    up to date in some way, and thus shall not be taken as granting any kind of warranty of any kind, neither implicit nor\n    explicit, without prejudice of any legal terms that may apply and product and service information 'as is'. Any part of\n    the information provided in this website may be subject to changes or updates at any moment without previous notice."
+msgstr "As informações neste site não são totalmente detalhadas e podem conter alguma imprecisão ou sofrer por não serem completamente /n atualizado de alguma forma e, por isso, não deve ser considerado como uma garantia de qualquer tipo, nem implícita nem \n explícita, sem prejuízo de quaisquer termos legais que possam ser aplicáveis ​​e informações sobre produtos e serviços «tal como estão». Qualquer parte do \n as informações fornecidas neste site podem estar sujeitas a alterações ou atualizações a qualquer momento sem aviso prévio."
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:34
+#, elixir-autogen, elixir-format
+msgid " We analyse and save some information about our website visitors to help us to improve and develop our products and\n    services. The user is never identified in this information. Information that is analysed may contain, for example,\n    the IP address of the visiting user, the type of browser that is being used to access our website, and the webpages\n    that are being visited.<br>The information that we obtain help us to register how many visitors are new or not, as\n    well as to internally analyse visited webpages to better understand user navigation habits. We use this information\n    only for continuous improvement of our website, our products and services."
+msgstr "Analisámos e guardamos algumas informações sobre os visitantes do nosso website para nos ajudar a melhorar e desenvolver os nossos produtos e /n serviços. O utilizador nunca é identificado nesta informação. As informações analisadas podem conter, por exemplo, \n o endereço IP do utilizador visitante, o tipo de browser que está a ser utilizado para aceder ao nosso site e as páginas web \n que estão a ser visitados. <br>A informação que obtemos ajuda-nos a registar quantos visitantes são novos ou não, assim como \n bem como analisar internamente as páginas visitadas para melhor compreender os hábitos de navegação do utilizador. Nós usamos essas informações \n apenas para melhoria contínua do nosso site, dos nossos produtos e serviços."
+
+#: lib/app_web/live/board.ex:1659
+#, elixir-autogen, elixir-format
+msgid "(Completed)"
+msgstr "(Concluído)"
+
+#: lib/app_web/live/board.ex:1665
+#, elixir-autogen, elixir-format
+msgid "(Due Soon)"
+msgstr "(Em breve)"
+
+#: lib/app_web/live/board.ex:1660
+#, elixir-autogen, elixir-format
+msgid "(Overdue)"
+msgstr "(Atrasado)"
+
+#: lib/app_web/live/board.ex:711
+#: lib/app_web/live/board.ex:726
+#, elixir-autogen, elixir-format
+msgid "(You)"
+msgstr "(Tu)"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:161
+#, elixir-autogen, elixir-format
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr "Um link para confirmar a alteração do seu e-mail foi enviado para o novo endereço."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:143
+#, elixir-autogen, elixir-format
+msgid "ABOUT COOKIES"
+msgstr "SOBRE OS COOKIES"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "ACCEPT ALL"
+msgstr "ACEITAR TUDO"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:18
+#, elixir-autogen, elixir-format
+msgid "Account Settings"
+msgstr "Configurações de Conta"
+
+#: lib/app_web/components/core_components.ex:534
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr "Ações"
+
+#: lib/app_web/live/board.ex:972
+#, elixir-autogen, elixir-format
+msgid "Activity"
+msgstr "Atividade"
+
+#: lib/app_web/live/board.ex:1114
+#, elixir-autogen, elixir-format
+msgid "Add Attachments"
+msgstr "Adicionar anexos"
+
+#: lib/app_web/live/board.ex:806
+#, elixir-autogen, elixir-format
+msgid "Add Card"
+msgstr "Adicionar cartão"
+
+#: lib/app_web/live/board.ex:1091
+#, elixir-autogen, elixir-format
+msgid "Add Checklist"
+msgstr "Adicionar lista de verificação"
+
+#: lib/app_web/live/board.ex:817
+#, elixir-autogen, elixir-format
+msgid "Add List"
+msgstr "Adicionar lista"
+
+#: lib/app_web/live/board.ex:704
+#, elixir-autogen, elixir-format
+msgid "Add Member to board"
+msgstr "Adicionar membro ao quadro"
+
+#: lib/app_web/live/board.ex:1034
+#, elixir-autogen, elixir-format
+msgid "Add Member to card"
+msgstr "Adicionar membro ao cartão"
+
+#: lib/app_web/live/board.ex:700
+#: lib/app_web/live/board.ex:1031
+#, elixir-autogen, elixir-format
+msgid "Add Members"
+msgstr "Adicionar membros"
+
+#: lib/app_web/live/board.ex:1094
+#, elixir-autogen, elixir-format
+msgid "Add New Checklist"
+msgstr "Adicionar nova lista de verificação"
+
+#: lib/app_web/live/board.ex:774
+#: lib/app_web/live/board.ex:803
+#, elixir-autogen, elixir-format
+msgid "Add a card"
+msgstr "Adicionar um cartão"
+
+#: lib/app_web/live/board.ex:963
+#, elixir-autogen, elixir-format
+msgid "Add an item"
+msgstr "Adicionar um item"
+
+#: lib/app_web/live/board.ex:813
+#, elixir-autogen, elixir-format
+msgid "Add another list"
+msgstr "Adicionar outra lista"
+
+#: lib/app_web/live/board.ex:1156
+#: lib/app_web/live/home.ex:123
+#, elixir-autogen, elixir-format
+msgid "Add board photo"
+msgstr "Adicionar foto do quadro"
+
+#: lib/app_web/live/board.ex:981
+#, elixir-autogen, elixir-format
+msgid "Add new comment"
+msgstr "Adicionar novo comentário"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:23
+#, elixir-autogen, elixir-format
+msgid "Already registered?"
+msgstr "Já está registado?"
+
+#: lib/app_web/live/board.ex:714
+#: lib/app_web/live/board.ex:729
+#: lib/app_web/live/board.ex:777
+#: lib/app_web/live/board.ex:894
+#: lib/app_web/live/board.ex:915
+#: lib/app_web/live/board.ex:932
+#: lib/app_web/live/board.ex:953
+#: lib/app_web/live/board.ex:997
+#: lib/app_web/live/board.ex:1063
+#: lib/app_web/live/board.ex:1137
+#: lib/app_web/live/board.ex:1201
+#: lib/app_web/live/home.ex:170
+#, elixir-autogen, elixir-format
+msgid "Are you sure?"
+msgstr "Tem a certeza?"
+
+#: lib/app_web/live/board.ex:1109
+#, elixir-autogen, elixir-format
+msgid "Attachment"
+msgstr "Apego"
+
+#: lib/app_web/live/board.ex:879
+#, elixir-autogen, elixir-format
+msgid "Attachments"
+msgstr "Anexos"
+
+#: lib/app_web/components/core_components.ex:178
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr "Tentando reconectar"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:32
+#, elixir-autogen, elixir-format
+msgid "Automatically captured data"
+msgstr "Dados capturados automaticamente"
+
+#: lib/app_web/live/pages_common/not_found_five.ex:31
+#, elixir-autogen, elixir-format
+msgid "Back to Home"
+msgstr "Voltar para casa"
+
+#: lib/app_web/live/board.ex:1154
+#: lib/app_web/live/board.ex:1176
+#: lib/app_web/live/home.ex:121
+#: lib/app_web/live/home.ex:143
+#, elixir-autogen, elixir-format
+msgid "Board Name:"
+msgstr "Nome do Conselho:"
+
+#: lib/app_web/live/board.ex:1292
+#: lib/app_web/live/home.ex:215
+#, elixir-autogen, elixir-format
+msgid "Board created successfully!"
+msgstr "Quadro criado com sucesso!"
+
+#: lib/app_web/live/board.ex:1314
+#: lib/app_web/live/home.ex:238
+#, elixir-autogen, elixir-format
+msgid "Board deleted successfully!"
+msgstr "Quadro eliminado com sucesso!"
+
+#: lib/app_web/live/board.ex:1308
+#: lib/app_web/live/home.ex:232
+#, elixir-autogen, elixir-format
+msgid "Board edited successfully!"
+msgstr "Quadro editado com sucesso!"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:24
+#, elixir-autogen, elixir-format
+msgid "By sending this information you are agreeing, freely and informed, its incorporation in our database and\n    its use accordingly to these privacy policy, as well as with its transfer to any of our branches or associates as long\n    as it is treated according to to same rules."
+msgstr "Ao enviar esta informação está a consentir, livre e informado, a sua incorporação na nossa base de dados e \n a sua utilização de acordo com a presente política de privacidade, bem como com a sua transferência para qualquer uma das nossas filiais ou associadas, desde que \n pois é tratado de acordo com as mesmas regras."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:142
+#, elixir-autogen, elixir-format
+msgid "COOKIE DECLARATION"
+msgstr "DECLARAÇÃO DE COOKIES"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:115
+#, elixir-autogen, elixir-format
+msgid "COOKIE SETTINGS"
+msgstr "CONFIGURAÇÕES DE COOKIES"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:62
+#, elixir-autogen, elixir-format
+msgid "Can I block cookies & localStorage?"
+msgstr "Posso bloquear os cookies e o localStorage?"
+
+#: lib/app_web/live/board.ex:705
+#: lib/app_web/live/board.ex:716
+#: lib/app_web/live/board.ex:722
+#: lib/app_web/live/board.ex:731
+#: lib/app_web/live/board.ex:737
+#: lib/app_web/live/board.ex:779
+#: lib/app_web/live/board.ex:896
+#: lib/app_web/live/board.ex:917
+#: lib/app_web/live/board.ex:934
+#: lib/app_web/live/board.ex:955
+#: lib/app_web/live/board.ex:982
+#: lib/app_web/live/board.ex:999
+#: lib/app_web/live/board.ex:1010
+#: lib/app_web/live/board.ex:1065
+#: lib/app_web/live/board.ex:1139
+#: lib/app_web/live/board.ex:1203
+#: lib/app_web/live/home.ex:172
+#, elixir-autogen, elixir-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/app_web/live/board.ex:1441
+#, elixir-autogen, elixir-format
+msgid "Card created successfully!"
+msgstr "Cartão criado com sucesso!"
+
+#: lib/app_web/live/board.ex:1447
+#, elixir-autogen, elixir-format
+msgid "Card deleted successfully!"
+msgstr "Cartão eliminado com sucesso!"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:43
+#, elixir-autogen, elixir-format
+msgid "Change Email"
+msgstr "Alterar e-mail"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Change Password"
+msgstr "Alterar a palavra-passe"
+
+#: lib/app_web/live/board.ex:1178
+#: lib/app_web/live/home.ex:145
+#, elixir-autogen, elixir-format
+msgid "Change board photo"
+msgstr "Alterar foto do quadro"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:43
+#: lib/app_web/live/authentication/user_settings_live.ex:88
+#, elixir-autogen, elixir-format
+msgid "Changing..."
+msgstr "Mudando..."
+
+#: lib/app_web/live/board.ex:1086
+#, elixir-autogen, elixir-format
+msgid "Checklist"
+msgstr "Lista de verificação"
+
+#: lib/app_web/live/board.ex:1571
+#, elixir-autogen, elixir-format
+msgid "Checklist added to card successfully!"
+msgstr "Lista de verificação adicionada ao cartão com sucesso!"
+
+#: lib/app_web/live/board.ex:1577
+#, elixir-autogen, elixir-format
+msgid "Checklist deleted successfully!"
+msgstr "Lista de verificação eliminada com sucesso!"
+
+#: lib/app_web/live/board.ex:1104
+#, elixir-autogen, elixir-format
+msgid "Clear Due Date"
+msgstr "Limpar data de validade"
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:15
+#, elixir-autogen, elixir-format
+msgid "Confirm account"
+msgstr "Confirmar conta"
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Confirm my account"
+msgstr "Confirmar a minha conta"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Confirm new password"
+msgstr "Confirmar nova palavra-chave"
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Confirming..."
+msgstr "Confirmando..."
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Consent to your data being processed."
+msgstr "Consentimento para que os seus dados sejam processados."
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Consent to your data being processed. *"
+msgstr "Consentimento para que os seus dados sejam processados. *"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Contact form submitted!"
+msgstr "Formulário de contacto enviado!"
+
+#: lib/app_web/components/layouts/app.html.heex:36
+#: lib/app_web/components/layouts/app.html.heex:69
+#, elixir-autogen, elixir-format
+msgid "Contacts"
+msgstr "Contatos"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:52
+#, elixir-autogen, elixir-format
+msgid "Cookies & localStorage"
+msgstr "Cookies e localStorage"
+
+#: lib/app_web/components/layouts/app.html.heex:71
+#, elixir-autogen, elixir-format
+msgid "Cookies Policy"
+msgstr "Política de Cookies"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:54
+#, elixir-autogen, elixir-format
+msgid "Cookies and localStorage are small files that keep data in the browser that persist between website navigation.\n    These data contain specific information about previous visits, saving information only related to your preferences or\n    previous actions, thus excluding any personal data."
+msgstr "Os cookies e o localStorage são pequenos ficheiros que guardam dados no browser que persistem entre navegações no site. \n Estes dados contêm informações específicas sobre visitas anteriores, guardando apenas informações relacionadas com as suas preferências ou \n ações anteriores, excluindo assim quaisquer dados pessoais."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "Cookies are small text files that are placed on your computer by websites that you visit. Websites use cookies to help users navigate efficiently and perform certain functions. Cookies that are required for the website to operate properly are allowed to be set without your permission. All other cookies need to be approved before they can be set in the browser. You can change your consent to cookie usage at any time on our Privacy Policy page."
+msgstr "Os cookies são pequenos ficheiros de texto que são colocados no seu computador pelos sites que visita. Os sites utilizam cookies para ajudar os utilizadores a navegar eficientemente e a desempenhar determinadas funções. Os cookies necessários para o bom funcionamento do site podem ser definidos sem a sua permissão. Todos os outros cookies necessitam de ser aprovados antes de poderem ser configurados no browser. Pode alterar o seu consentimento para o uso de cookies a qualquer momento na nossa página de Política de Privacidade."
+
+#: lib/app_web/live/board.ex:1151
+#: lib/app_web/live/home.ex:108
+#: lib/app_web/live/home.ex:119
+#, elixir-autogen, elixir-format
+msgid "Create a new board"
+msgstr "Criar um novo quadro"
+
+#: lib/app_web/live/board.ex:1075
+#, elixir-autogen, elixir-format
+msgid "Create a new label"
+msgstr "Criar um novo rótulo"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:48
+#, elixir-autogen, elixir-format
+msgid "Create an account"
+msgstr "Criar uma conta"
+
+#: lib/app_web/live/board.ex:1164
+#: lib/app_web/live/home.ex:131
+#, elixir-autogen, elixir-format
+msgid "Create new board"
+msgstr "Criar novo quadro"
+
+#: lib/app_web/live/board.ex:966
+#, elixir-autogen, elixir-format
+msgid "Create new item"
+msgstr "Criar novo item"
+
+#: lib/app_web/live/board.ex:1004
+#, elixir-autogen, elixir-format
+msgid "Created card"
+msgstr "Cartão criado"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:48
+#, elixir-autogen, elixir-format
+msgid "Creating account..."
+msgstr "Criação de conta..."
+
+#: lib/app_web/live/board.ex:1036
+#, elixir-autogen, elixir-format
+msgid "Current members"
+msgstr "Membros atuais"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:37
+#: lib/app_web/live/authentication/user_settings_live.ex:81
+#, elixir-autogen, elixir-format
+msgid "Current password"
+msgstr "Senha atual"
+
+#: lib/app_web/live/board.ex:1188
+#: lib/app_web/live/home.ex:156
+#, elixir-autogen, elixir-format
+msgid "Current photo"
+msgstr "Foto atual"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "DECLINE ALL"
+msgstr "RECUSAR TUDO"
+
+#: lib/app_web/live/board.ex:1099
+#, elixir-autogen, elixir-format
+msgid "Dates"
+msgstr "Datas"
+
+#: lib/app_web/live/board.ex:1135
+#, elixir-autogen, elixir-format
+msgid "Delete Card"
+msgstr "Apagar cartão"
+
+#: lib/app_web/live/board.ex:1199
+#: lib/app_web/live/home.ex:168
+#, elixir-autogen, elixir-format
+msgid "Delete board"
+msgstr "Apagar quadro"
+
+#: lib/app_web/live/board.ex:951
+#, elixir-autogen, elixir-format
+msgid "Delete checkbox"
+msgstr "Apagar caixa de seleção"
+
+#: lib/app_web/live/board.ex:929
+#, elixir-autogen, elixir-format
+msgid "Delete checklist"
+msgstr "Apagar lista de verificação"
+
+#: lib/app_web/live/board.ex:995
+#, elixir-autogen, elixir-format
+msgid "Delete comment"
+msgstr "Apagar comentário"
+
+#: lib/app_web/live/board.ex:908
+#, elixir-autogen, elixir-format
+msgid "Delete file"
+msgstr "Apagar arquivo"
+
+#: lib/app_web/live/board.ex:886
+#, elixir-autogen, elixir-format
+msgid "Delete link"
+msgstr "Apagar link"
+
+#: lib/app_web/live/board.ex:775
+#, elixir-autogen, elixir-format
+msgid "Delete list"
+msgstr "Apagar lista"
+
+#: lib/app_web/live/board.ex:870
+#, elixir-autogen, elixir-format
+msgid "Description"
+msgstr "Descrição"
+
+#: lib/app_web/live/authentication/user_login_live.ex:19
+#, elixir-autogen, elixir-format
+msgid "Don't have an account?"
+msgstr "Não tem conta?"
+
+#: lib/app_web/live/board.ex:847
+#, elixir-autogen, elixir-format
+msgid "Due Date"
+msgstr "Data de vencimento"
+
+#: lib/app_web/live/board.ex:1059
+#, elixir-autogen, elixir-format
+msgid "Edit Label Name"
+msgstr "Editar Nome do Rótulo"
+
+#: lib/app_web/live/board.ex:721
+#: lib/app_web/live/board.ex:736
+#, elixir-autogen, elixir-format
+msgid "Edit Member role"
+msgstr "Editar função de membro"
+
+#: lib/app_web/live/board.ex:1173
+#: lib/app_web/live/board.ex:1197
+#: lib/app_web/live/home.ex:140
+#: lib/app_web/live/home.ex:166
+#, elixir-autogen, elixir-format
+msgid "Edit board"
+msgstr "Editar quadro"
+
+#: lib/app_web/live/board.ex:950
+#, elixir-autogen, elixir-format
+msgid "Edit checkbox"
+msgstr "Editar caixa de seleção"
+
+#: lib/app_web/live/board.ex:994
+#: lib/app_web/live/board.ex:1009
+#, elixir-autogen, elixir-format
+msgid "Edit comment"
+msgstr "Editar comentário"
+
+#: lib/app_web/live/board.ex:907
+#: lib/app_web/live/board.ex:912
+#, elixir-autogen, elixir-format
+msgid "Edit file"
+msgstr "Editar ficheiro"
+
+#: lib/app_web/live/board.ex:960
+#, elixir-autogen, elixir-format
+msgid "Edit item"
+msgstr "Editar item"
+
+#: lib/app_web/live/board.ex:959
+#, elixir-autogen, elixir-format
+msgid "Edit item name"
+msgstr "Editar nome do artigo"
+
+#: lib/app_web/live/board.ex:885
+#: lib/app_web/live/board.ex:891
+#, elixir-autogen, elixir-format
+msgid "Edit link"
+msgstr "Editar link"
+
+#: lib/app_web/live/board.ex:991
+#, elixir-autogen, elixir-format
+msgid "Edited"
+msgstr "Editado"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Email *"
+msgstr "E-mail *"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:104
+#, elixir-autogen, elixir-format
+msgid "Email change link is invalid or it has expired."
+msgstr "O link para alteração de e-mail é inválido ou expirou."
+
+#: lib/app_web/live/authentication/user_settings_live.ex:101
+#, elixir-autogen, elixir-format
+msgid "Email changed successfully."
+msgstr "E-mail alterado com sucesso."
+
+#: lib/app_web/live/board.ex:800
+#, elixir-autogen, elixir-format
+msgid "Enter a title for the new card..."
+msgstr "Introduza um título para o novo cartão..."
+
+#: lib/app_web/live/board.ex:815
+#, elixir-autogen, elixir-format
+msgid "Enter a title for the new list..."
+msgstr "Introduza um título para a nova lista..."
+
+#: lib/app_web/components/core_components.ex:169
+#, elixir-autogen, elixir-format
+msgid "Error!"
+msgstr "Erro!"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:90
+#, elixir-autogen, elixir-format
+msgid "Failed to create inquiry"
+msgstr "Falha ao criar consulta"
+
+#: lib/app_web/live/board.ex:1455
+#, elixir-autogen, elixir-format
+msgid "Failed to create list"
+msgstr "Falha ao criar lista"
+
+#: lib/app_web/live/board.ex:1417
+#, elixir-autogen, elixir-format
+msgid "Failed to update list name"
+msgstr "Falha ao atualizar o nome da lista"
+
+#: lib/app_web/live/board.ex:911
+#, elixir-autogen, elixir-format
+msgid "File Display Name"
+msgstr "Nome de exibição do ficheiro"
+
+#: lib/app_web/live/board.ex:901
+#, elixir-autogen, elixir-format
+msgid "Files"
+msgstr "Arquivos"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "First & Last Name"
+msgstr "Primeiro e Último Nome"
+
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Forgot Password"
+msgstr "Esqueceu-se da sua senha"
+
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:17
+#: lib/app_web/live/authentication/user_login_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "Forgot your password?"
+msgstr "Esqueceu-se da sua senha?"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Form successfully submitted!"
+msgstr "Formulário enviado com sucesso!"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Functionality"
+msgstr "Funcionalidade"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Functionality cookies are used to remember visitor information on the website, eg. language, timezone, enhanced content."
+msgstr "Os cookies de funcionalidade são utilizados para recordar informações dos visitantes no website, por exemplo. idioma, fuso horário, conteúdo melhorado."
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Get our free newsletter on technology and startups."
+msgstr "Receba a nossa newsletter gratuita sobre tecnologia e startups."
+
+#: lib/app_web/components/core_components.ex:190
+#, elixir-autogen, elixir-format
+msgid "Hang in there while we get back on track"
+msgstr "Aguente firme enquanto voltamos aos trilhos"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "How can we help? *"
+msgstr "Como podemos ajudar? *"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:27
+#, elixir-autogen, elixir-format
+msgid "If you want to update your personal information please contact us by\n    using any of the available tools in this website. Be aware that our organization may keep this information for\n    statistical or historical purposes."
+msgstr "Se desejar atualizar as suas informações pessoais, contacte-nos por /n utilizando qualquer uma das ferramentas disponíveis neste site. Esteja ciente de que a nossa organização pode manter estas informações por /n fins estatísticos ou históricos."
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "If your email is in our system and it has not been confirmed yet, you will receive an email with instructions shortly."
+msgstr "Se o seu e-mail estiver no nosso sistema e ainda não tiver sido confirmado, receberá um e-mail com as instruções em breve."
+
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:54
+#, elixir-autogen, elixir-format
+msgid "If your email is in our system, you will receive instructions to reset your password shortly."
+msgstr "Se o seu e-mail estiver no nosso sistema, receberá instruções para redefinir a sua palavra-passe em breve."
+
+#: lib/app_web/live/board.ex:1022
+#, elixir-autogen, elixir-format
+msgid "Join"
+msgstr "Juntar"
+
+#: lib/app_web/live/authentication/user_login_live.ex:32
+#, elixir-autogen, elixir-format
+msgid "Keep me logged in"
+msgstr "Mantenha-me ligado"
+
+#: lib/app_web/live/board.ex:858
+#: lib/app_web/live/board.ex:1044
+#, elixir-autogen, elixir-format
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: lib/app_web/live/board.ex:1020
+#, elixir-autogen, elixir-format
+msgid "Leave"
+msgstr "Ausência"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:42
+#, elixir-autogen, elixir-format
+msgid "Legal warning"
+msgstr "Aviso legal"
+
+#: lib/app_web/live/board.ex:1129
+#, elixir-autogen, elixir-format
+msgid "Link Display Name"
+msgstr "Nome de exibição do link"
+
+#: lib/app_web/live/board.ex:1128
+#, elixir-autogen, elixir-format
+msgid "Link URL"
+msgstr "URL do link"
+
+#: lib/app_web/live/board.ex:881
+#, elixir-autogen, elixir-format
+msgid "Links"
+msgstr "Ligações"
+
+#: lib/app_web/live/board.ex:763
+#, elixir-autogen, elixir-format
+msgid "List Actions"
+msgstr "Listar Ações"
+
+#: lib/app_web/live/board.ex:1454
+#, elixir-autogen, elixir-format
+msgid "List created successfully!"
+msgstr "Lista criada com sucesso!"
+
+#: lib/app_web/live/board.ex:1462
+#, elixir-autogen, elixir-format
+msgid "List deleted successfully!"
+msgstr "Lista eliminada com sucesso!"
+
+#: lib/app_web/live/board.ex:1416
+#, elixir-autogen, elixir-format
+msgid "List name updated successfully!"
+msgstr "Nome da lista atualizado com sucesso!"
+
+#: lib/app_web/components/layouts/app.html.heex:42
+#: lib/app_web/components/layouts/app.html.heex:64
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:31
+#: lib/app_web/live/authentication/user_confirmation_live.ex:26
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:31
+#: lib/app_web/live/authentication/user_login_live.ex:39
+#: lib/app_web/live/authentication/user_registration_live.ex:25
+#: lib/app_web/live/authentication/user_reset_password_live.ex:41
+#: lib/app_web/live/no_access.ex:51
+#, elixir-autogen, elixir-format
+msgid "Log in"
+msgstr "Conecte-se"
+
+#: lib/app_web/live/no_access.ex:48
+#, elixir-autogen, elixir-format
+msgid "Log in or Register to go to your boards!"
+msgstr "Entre ou registe-se para aceder aos seus painéis!"
+
+#: lib/app_web/live/authentication/user_login_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "Log in to account"
+msgstr "Entrar na conta"
+
+#: lib/app_web/components/layouts/app.html.heex:39
+#: lib/app_web/components/layouts/app.html.heex:61
+#, elixir-autogen, elixir-format
+msgid "Log out"
+msgstr "Sair"
+
+#: lib/app_web/live/authentication/user_login_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Logging in..."
+msgstr "Efetuando login..."
+
+#: lib/app_web/live/authentication/user_login_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "Login"
+msgstr "Conecte-se"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:19
+#, elixir-autogen, elixir-format
+msgid "Manage your account email address and password settings"
+msgstr "Gira as definições de endereço de e-mail e palavra-passe da sua conta"
+
+#: lib/app_web/live/board.ex:1324
+#: lib/app_web/live/board.ex:1336
+#, elixir-autogen, elixir-format
+msgid "Member"
+msgstr "Membro"
+
+#: lib/app_web/live/board.ex:694
+#: lib/app_web/live/board.ex:840
+#: lib/app_web/live/board.ex:1026
+#, elixir-autogen, elixir-format
+msgid "Members"
+msgstr "Membros"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:64
+#, elixir-autogen, elixir-format
+msgid "Most browsers use cookies and localStorage automatically by default, but users can refuse cookies, or selectively\n    accept some data to be kept in the LocalStorage or erase saved data by adjusting browser preferences. If you don't\n    want us to use cookies and/or localStorage you can define those options in your browser or you may configure it to\n    warn you when a website tries to save cookies or store data in your localStorage. Nevertheless, if you turn off\n    cookies and/or localstorage there will be some website functionalities that won't be available and some pages may\n    misbehave and/or don't show up properly."
+msgstr "A maioria dos navegadores utiliza cookies e localStorage automaticamente por defeito, mas os utilizadores podem recusar cookies ou seletivamente \n aceite que alguns dados sejam mantidos no LocalStorage ou apague os dados guardados, ajustando as preferências do browser. Se não \n pretende que utilizemos cookies e/ou localStorage, pode definir estas opções no seu browser ou pode configurá-lo para \n avisá-lo quando um site tenta guardar cookies ou armazenar dados no seu localStorage. No entanto, se desligar \n cookies e/ou localstorage algumas funcionalidades do site não estarão disponíveis e algumas páginas poderão \n se portam mal e/ou não aparecem corretamente."
+
+#: lib/app_web/live/board.ex:772
+#, elixir-autogen, elixir-format
+msgid "Move left"
+msgstr "Deslocar para a esquerda"
+
+#: lib/app_web/live/board.ex:773
+#, elixir-autogen, elixir-format
+msgid "Move right"
+msgstr "Deslocar para a direita"
+
+#: lib/app_web/live/board.ex:1093
+#, elixir-autogen, elixir-format
+msgid "Name your checklist"
+msgstr "Dê um nome à sua lista de verificação"
+
+#: lib/app_web/live/board.ex:1078
+#, elixir-autogen, elixir-format
+msgid "New Label Name"
+msgstr "Novo nome do rótulo"
+
+#: lib/app_web/live/board.ex:965
+#, elixir-autogen, elixir-format
+msgid "New item name"
+msgstr "Novo nome do artigo"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:67
+#, elixir-autogen, elixir-format
+msgid "New password"
+msgstr "Nova Senha"
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:16
+#, elixir-autogen, elixir-format
+msgid "No confirmation instructions received?"
+msgstr "Nenhuma instrução de confirmação recebida?"
+
+#: lib/app_web/live/board.ex:1193
+#: lib/app_web/live/home.ex:161
+#, elixir-autogen, elixir-format
+msgid "No photo for this board yet."
+msgstr "Ainda não há foto para este quadro."
+
+#: lib/app_web/building_blocks/components_stateless/countdown_load.ex:23
+#: lib/app_web/components/layouts/app.html.heex:48
+#, elixir-autogen, elixir-format
+msgid "OR LAUNCH NOW"
+msgstr "OU LANÇAR AGORA"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:41
+#: lib/app_web/live/authentication/user_reset_password_live.ex:24
+#, elixir-autogen, elixir-format
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "Ups, algo correu mal! Verifique os erros abaixo."
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:49
+#, elixir-autogen, elixir-format
+msgid "Our organization cannot be hold responsable in any case by damages of any kind due to the navigation of our\n    website or to the information it contains, even that you have been warned about those potential damages."
+msgstr "A nossa organização não poderá ser responsabilizada em caso algum por danos de qualquer natureza decorrentes da navegação dos nossos /n site ou às informações nele contidas, mesmo que tenha sido avisado sobre esses possíveis danos."
+
+#: lib/app_web/live/board.ex:1350
+#, elixir-autogen, elixir-format
+msgid "Owner"
+msgstr "Proprietário"
+
+#: lib/app_web/live/authentication/user_login_live.ex:29
+#: lib/app_web/live/authentication/user_registration_live.ex:45
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: lib/app_web/live/authentication/user_reset_password_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Password reset successfully."
+msgstr "Palavra-passe redefinida com sucesso."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Performance"
+msgstr "Desempenho"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Performance cookies are used to see how visitors use the website, eg. analytics cookies. Those cookies cannot be used to directly identify a certain visitor."
+msgstr "Os cookies de desempenho são utilizados para ver como os visitantes utilizam o website, por exemplo. cookies analíticos. Estes cookies não podem ser utilizados para identificar diretamente um determinado visitante."
+
+#: lib/app_web/components/layouts/app.html.heex:70
+#, elixir-autogen, elixir-format
+msgid "Privacy Policy"
+msgstr "política de Privacidade"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:12
+#: lib/app_web/live/pages_common/priv_pol_one.ex:19
+#, elixir-autogen, elixir-format
+msgid "Privacy policy"
+msgstr "política de Privacidade"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "Read more"
+msgstr "Ler mais"
+
+#: lib/app_web/components/layouts/app.html.heex:41
+#: lib/app_web/components/layouts/app.html.heex:63
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:30
+#: lib/app_web/live/authentication/user_confirmation_live.ex:25
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:30
+#: lib/app_web/live/authentication/user_registration_live.ex:58
+#: lib/app_web/live/authentication/user_reset_password_live.ex:40
+#: lib/app_web/live/no_access.ex:54
+#, elixir-autogen, elixir-format
+msgid "Register"
+msgstr "Registar"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Register for an account"
+msgstr "Registe-se para uma conta"
+
+#: lib/app_web/live/board.ex:1161
+#: lib/app_web/live/board.ex:1184
+#: lib/app_web/live/home.ex:128
+#: lib/app_web/live/home.ex:151
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr "Remover"
+
+#: lib/app_web/live/board.ex:768
+#, elixir-autogen, elixir-format
+msgid "Rename List"
+msgstr "Renomear lista"
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:24
+#, elixir-autogen, elixir-format
+msgid "Resend confirmation instructions"
+msgstr "Reenviar instruções de confirmação"
+
+#: lib/app_web/live/authentication/user_reset_password_live.ex:15
+#: lib/app_web/live/authentication/user_reset_password_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "Reset Password"
+msgstr "Redefinir palavra-passe"
+
+#: lib/app_web/live/authentication/user_reset_password_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "Reset password"
+msgstr "Redefinir palavra-passe"
+
+#: lib/app_web/live/authentication/user_reset_password_live.ex:92
+#, elixir-autogen, elixir-format
+msgid "Reset password link is invalid or it has expired."
+msgstr "O link para redefinir a palavra-passe é inválido ou expirou."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "Save Current & Close"
+msgstr "Guardar atual e fechar"
+
+#: lib/app_web/live/board.ex:1121
+#, elixir-autogen, elixir-format
+msgid "Select a file to upload"
+msgstr "Selecione um ficheiro para enviar"
+
+#: lib/app_web/live/board.ex:703
+#, elixir-autogen, elixir-format
+msgid "Select a member role..."
+msgstr "Selecione uma função de membro..."
+
+#: lib/app_web/live/board.ex:702
+#: lib/app_web/live/board.ex:1033
+#, elixir-autogen, elixir-format
+msgid "Select a member to add..."
+msgstr "Selecione um membro para adicionar..."
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Send"
+msgstr "Enviar"
+
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:25
+#, elixir-autogen, elixir-format
+msgid "Send password reset instructions"
+msgstr "Enviar instruções de redefinição de palavra-passe"
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:23
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:24
+#, elixir-autogen, elixir-format
+msgid "Sending..."
+msgstr "Enviando..."
+
+#: lib/app_web/components/layouts/app.html.heex:38
+#: lib/app_web/components/layouts/app.html.heex:60
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr "Configurações"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Share in detail your message"
+msgstr "Partilhe a sua mensagem detalhadamente"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Share why are you contacting us"
+msgstr "Partilhe por que está nos contatando"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "Show Details"
+msgstr "Mostrar detalhes"
+
+#: lib/app_web/live/board.ex:689
+#, elixir-autogen, elixir-format
+msgid "Show only cards assigned to me"
+msgstr "Mostrar apenas os cartões que me foram atribuídos"
+
+#: lib/app_web/live/authentication/user_login_live.ex:21
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr "Inscrever-se"
+
+#: lib/app_web/components/layouts/app.html.heex:68
+#, elixir-autogen, elixir-format
+msgid "Sitemap"
+msgstr "Mapa do site"
+
+#: lib/app_web/components/core_components.ex:185
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr "Algo correu mal!"
+
+#: lib/app_web/live/pages_common/not_found_five.ex:28
+#, elixir-autogen, elixir-format
+msgid "Sorry, the dog ate our page."
+msgstr "Desculpe, o cão comeu a nossa página."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Strictly necessary"
+msgstr "Estritamente necessário"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Strictly necessary cookies allow core website functionality such as user login and account management. The website cannot be used properly without strictly necessary cookies."
+msgstr "Os cookies estritamente necessários permitem a funcionalidade principal do site, como o login do utilizador e a gestão da conta. O site não pode ser utilizado corretamente sem os cookies estritamente necessários."
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Submit the form"
+msgstr "Enviar o formulário"
+
+#: lib/app_web/components/core_components.ex:168
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr "Sucesso!"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Targeting"
+msgstr "Segmentação"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:22
+#, elixir-autogen, elixir-format
+msgid "Targeting cookies are used to identify visitors between different websites, eg. content partners, banner networks. Those cookies may be used by companies to build a profile of visitor interests or show relevant ads on other websites."
+msgstr "Os cookies de segmentação são utilizados para identificar visitantes entre diferentes websites, por exemplo. parceiros de conteúdo, redes de banners. Estes cookies podem ser utilizados pelas empresas para criar um perfil de interesses dos visitantes ou exibir anúncios relevantes noutros websites."
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Tell us more about it *"
+msgstr "Conte-nos mais sobre isso*"
+
+#: lib/app_web/components/layouts/app.html.heex:29
+#, elixir-autogen, elixir-format
+msgid "The app has been updated. Click here to"
+msgstr "O aplicativo foi atualizado. Clique aqui para"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:22
+#, elixir-autogen, elixir-format
+msgid "The information sent through our webpage when a user registers, shops or by using forms, will be kept strictly\n    confidential and will be treated according to the prevailing national and european law, as it applies to information\n    privacy."
+msgstr "As informações enviadas através da nossa página web quando um utilizador se regista, faz compras ou utiliza formulários, serão guardadas estritamente /n confidenciais e serão tratadas de acordo com a legislação nacional e europeia em vigor, no que respeita às informações \n privacidade."
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "This website uses cookies"
+msgstr "Este site utiliza cookies"
+
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:23
+#: lib/app_web/components/layouts/app.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy."
+msgstr "Este site utiliza cookies para melhorar a experiência do utilizador. Ao utilizar o nosso website, concorda com todos os cookies de acordo com a nossa Política de Cookies."
+
+#: lib/app_web/live/board.ex:1116
+#, elixir-autogen, elixir-format
+msgid "Upload File"
+msgstr "Carregar ficheiro"
+
+#: lib/app_web/live/board.ex:1117
+#, elixir-autogen, elixir-format
+msgid "Upload Link"
+msgstr "Link de upload"
+
+#: lib/app_web/live/board.ex:1125
+#, elixir-autogen, elixir-format
+msgid "Upload file"
+msgstr "Carregar ficheiro"
+
+#: lib/app_web/live/board.ex:1130
+#, elixir-autogen, elixir-format
+msgid "Upload link"
+msgstr "Link de upload"
+
+#: lib/app_web/live/board.ex:1616
+#: lib/app_web/live/board.ex:1622
+#, elixir-autogen, elixir-format
+msgid "Upload successful!"
+msgstr "Envio realizado com sucesso!"
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "User Confirmation"
+msgstr "Confirmação do utilizador"
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "User Confirmation Instructions"
+msgstr "Instruções de confirmação do utilizador"
+
+#: lib/app_web/live/authentication/user_settings_live.ex:109
+#: lib/app_web/live/authentication/user_settings_live.ex:122
+#, elixir-autogen, elixir-format
+msgid "User Settings"
+msgstr "Configurações do utilizador"
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:64
+#, elixir-autogen, elixir-format
+msgid "User confirmation link is invalid or it has expired."
+msgstr "O link de confirmação do utilizador é inválido ou expirou."
+
+#: lib/app_web/live/authentication/user_confirmation_live.ex:49
+#, elixir-autogen, elixir-format
+msgid "User confirmed successfully."
+msgstr "Utilizador confirmado com sucesso."
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:20
+#, elixir-autogen, elixir-format
+msgid "User submitted data"
+msgstr "Dados enviados pelo utilizador"
+
+#: lib/app_web/components/core_components.ex:173
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr "Não conseguimos encontrar a internet"
+
+#: lib/app_web/live/pages_common/priv_pol_one.ex:58
+#, elixir-autogen, elixir-format
+msgid "We use cookies and localStorage to recognize repeated visits\n    to our website and to facilitate internet navigation (for example, closing warning or help balloons, language\n    preferences,...)"
+msgstr "Utilizamos cookies e localStorage para reconhecer visitas repetidas \n para o nosso site e para facilitar a navegação na Internet (por exemplo, fechar balões de aviso ou de ajuda, idioma \n preferências,...)"
+
+#: lib/app_web/live/authentication/user_confirmation_instructions_live.ex:17
+#, elixir-autogen, elixir-format
+msgid "We'll send a new confirmation link to your inbox"
+msgstr "Enviaremos um novo link de confirmação para a sua caixa de entrada"
+
+#: lib/app_web/live/authentication/user_forgot_password_live.ex:18
+#, elixir-autogen, elixir-format
+msgid "We'll send a password reset link to your inbox"
+msgstr "Enviaremos um link de redefinição de palavra-passe para a sua caixa de entrada"
+
+#: lib/app_web/live/home.ex:98
+#, elixir-autogen, elixir-format
+msgid "Welcome to the Telespazio Trello"
+msgstr "Bem-vindo ao Telespazio Trello"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "What is it regarding?"
+msgstr "Sobre o que é?"
+
+#: lib/app_web/live/board.ex:978
+#, elixir-autogen, elixir-format
+msgid "Write a comment"
+msgstr "Escreva um comentário"
+
+#: lib/app_web/live/board.ex:980
+#, elixir-autogen, elixir-format
+msgid "Write a comment..."
+msgstr "Escreva um comentário..."
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Write briefly what is your message regarding"
+msgstr "Escreva resumidamente qual é a sua mensagem sobre"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Write in detail what is your message regarding and we will get back to you as soon as possible"
+msgstr "Escreva detalhadamente sobre qual é a sua mensagem e entraremos em contacto consigo o mais breve possível."
+
+#: lib/app_web/live/board.ex:1202
+#: lib/app_web/live/home.ex:171
+#, elixir-autogen, elixir-format
+msgid "Yes, delete board"
+msgstr "Sim, apagar quadro"
+
+#: lib/app_web/live/board.ex:1138
+#, elixir-autogen, elixir-format
+msgid "Yes, delete card"
+msgstr "Sim, apagar cartão"
+
+#: lib/app_web/live/board.ex:954
+#, elixir-autogen, elixir-format
+msgid "Yes, delete checkbox"
+msgstr "Sim, eliminar caixa de seleção"
+
+#: lib/app_web/live/board.ex:933
+#, elixir-autogen, elixir-format
+msgid "Yes, delete checklist"
+msgstr "Sim, eliminar lista de verificação"
+
+#: lib/app_web/live/board.ex:998
+#, elixir-autogen, elixir-format
+msgid "Yes, delete comment"
+msgstr "Sim, apagar comentário"
+
+#: lib/app_web/live/board.ex:916
+#, elixir-autogen, elixir-format
+msgid "Yes, delete file"
+msgstr "Sim, apagar ficheiro"
+
+#: lib/app_web/live/board.ex:895
+#, elixir-autogen, elixir-format
+msgid "Yes, delete link"
+msgstr "Sim, apagar link"
+
+#: lib/app_web/live/board.ex:778
+#, elixir-autogen, elixir-format
+msgid "Yes, delete list"
+msgstr "Sim, apagar lista"
+
+#: lib/app_web/live/board.ex:715
+#: lib/app_web/live/board.ex:730
+#, elixir-autogen, elixir-format
+msgid "Yes, leave board"
+msgstr "Sim, deixe o quadro"
+
+#: lib/app_web/live/board.ex:730
+#, elixir-autogen, elixir-format
+msgid "Yes, remove member"
+msgstr "Sim, remover membro"
+
+#: lib/app_web/live/board.ex:715
+#, elixir-autogen, elixir-format
+msgid "Yes, remove owner"
+msgstr "Sim, remover proprietário"
+
+#: lib/app_web/components/layouts/app.html.heex:59
+#: lib/app_web/live/board.ex:745
+#: lib/app_web/live/home.ex:50
+#, elixir-autogen, elixir-format
+msgid "Your Boards"
+msgstr "Os seus quadros"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Your Email Address"
+msgstr "O seu endereço de email"
+
+#: lib/app_web/building_blocks/components_stateless/contacts_bubble.ex:17
+#: lib/app_web/components/layouts/app.html.heex:27
+#, elixir-autogen, elixir-format
+msgid "Your Name *"
+msgstr "O seu nome *"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Your email address:"
+msgstr "O seu endereço de email:"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Your message:"
+msgstr "A sua mensagem:"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Your name:"
+msgstr "O seu nome:"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:22
+#, elixir-autogen, elixir-format
+msgid "Your personal email"
+msgstr "O seu e-mail pessoal"
+
+#: lib/app_web/components/layouts/app.html.heex:57
+#, elixir-autogen, elixir-format
+msgid "Your profile"
+msgstr "O seu perfil"
+
+#: lib/app_web/live/board.ex:1324
+#, elixir-autogen, elixir-format
+msgid "added successfully"
+msgstr "adicionado com sucesso"
+
+#: lib/app_web/building_blocks/components_stateless/banner.ex:31
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:118
+#: lib/app_web/building_blocks/components_stateless/cookie_banner.ex:135
+#: lib/app_web/building_blocks/components_stateless/product_card.ex:224
+#: lib/app_web/components/core_components.ex:86
+#: lib/app_web/components/core_components.ex:148
+#: lib/app_web/live/board.ex:698
+#: lib/app_web/live/board.ex:765
+#: lib/app_web/live/board.ex:827
+#: lib/app_web/live/board.ex:1029
+#: lib/app_web/live/board.ex:1089
+#: lib/app_web/live/board.ex:1112
+#: lib/app_web/live/board.ex:1149
+#: lib/app_web/live/board.ex:1171
+#: lib/app_web/live/home.ex:117
+#: lib/app_web/live/home.ex:138
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr "perto"
+
+#: lib/app_web/live/board.ex:1336
+#: lib/app_web/live/board.ex:1350
+#, elixir-autogen, elixir-format
+msgid "deleted successfully"
+msgstr "eliminado com sucesso"
+
+#: lib/app_web/live/authentication/user_login_live.ex:23
+#, elixir-autogen, elixir-format
+msgid "for an account now."
+msgstr "para uma conta agora."
+
+#: lib/app_web/live/board.ex:834
+#, elixir-autogen, elixir-format
+msgid "in list"
+msgstr "na lista"
+
+#: lib/app_web/live/board.ex:1156
+#: lib/app_web/live/board.ex:1178
+#: lib/app_web/live/home.ex:123
+#: lib/app_web/live/home.ex:145
+#, elixir-autogen, elixir-format
+msgid "max size"
+msgstr "tamanho máximo"
+
+#: lib/app_web/live/board.ex:1122
+#: lib/app_web/live/board.ex:1157
+#: lib/app_web/live/board.ex:1179
+#: lib/app_web/live/home.ex:124
+#: lib/app_web/live/home.ex:146
+#, elixir-autogen, elixir-format
+msgid "or drag and drop here"
+msgstr "ou arraste e largue aqui"
+
+#: lib/app_web/components/layouts/app.html.heex:29
+#, elixir-autogen, elixir-format
+msgid "reload"
+msgstr "recarregar"
+
+#: lib/app_web/live/authentication/user_registration_live.ex:27
+#, elixir-autogen, elixir-format
+msgid "to your account now"
+msgstr "para a sua conta agora"
+
+#: lib/app_web/building_blocks/components_stateful/contact_form.ex:36
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Channel*"
+msgstr "Canal*"
+
+#: lib/app_web/controllers/user_session_controller.ex:8
+#, elixir-autogen, elixir-format
+msgid "Account created successfully!"
+msgstr "Conta criada com sucesso!"
+
+#: lib/app_web/controllers/user_session_controller.ex:31
+#, elixir-autogen, elixir-format
+msgid "Invalid email or password"
+msgstr "E-mail ou palavra-passe inválidos"
+
+#: lib/app_web/controllers/user_session_controller.ex:39
+#, elixir-autogen, elixir-format
+msgid "Logged out successfully."
+msgstr "Desligado com sucesso."
+
+#: lib/app_web/controllers/user_session_controller.ex:14
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Password updated successfully!"
+msgstr "Palavra-passe atualizada com sucesso!"
+
+#: lib/app_web/controllers/user_session_controller.ex:18
+#, elixir-autogen, elixir-format
+msgid "Welcome back!"
+msgstr "Bem-vindo de volta!"
+
+#: lib/app_web/live/no_access.ex:10
+#, elixir-autogen, elixir-format
+msgid "Home"
+msgstr "Casa"
+
+#: lib/app_web/live/pages_common/not_found_five.ex:13
+#, elixir-autogen, elixir-format
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: lib/app_web/live/board.ex:1005
+#, elixir-autogen, elixir-format
+msgid "Moved card"
+msgstr "Cartão movido"
+
+#: lib/app_web/live/board.ex:1005
+#, elixir-autogen, elixir-format
+msgid "from"
+msgstr "de"
+
+#: lib/app_web/live/board.ex:1005
+#, elixir-autogen, elixir-format
+msgid "to"
+msgstr "para"
+
+#: lib/app_web/live/board.ex:973
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Details"
+msgstr "Detalhes"
+
+#: lib/app_web/live/board.ex:973
+#, elixir-autogen, elixir-format
+msgid "Hide"
+msgstr "Ocultar"
+
+#: lib/app_web/live/board.ex:973
+#, elixir-autogen, elixir-format
+msgid "Show"
+msgstr "Espetáculo"
+
+#: lib/app_web/live/board.ex:1546
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Label deleted successfully!"
+msgstr "Rótulo eliminado com sucesso!"
+
+#: lib/app_web/live/board.ex:1064
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Yes, delete label"
+msgstr "Sim, elimine a etiqueta"

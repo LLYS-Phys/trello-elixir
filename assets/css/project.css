@@ -1,0 +1,86 @@
+/*.................................................. Learnings ...............................................................
+CSS properties containing more than one rule, applied through classes, that are common to all projects. They may be customized
+by the use of css variables for certain rules that can be fine tunned in the "palette.css" file by passing speficic values.
+1) To make the element ocupy full horizontal space but keeping it's size to it's content;
+2) Shadow on Over event and selected - creates a shadow effect + the mouse changes to "cursor" on the element on "hover" event;
+3) Antialiased - Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to 
+      anti-aliasing for light text on dark backgrounds makes it look lighter. subpixel-antialiased - On most non-retina displays, 
+      this will give the sharpest text;
+4) Transition standard timeapplied  by passsing a specific ".className" to the element we want to transition;
+5) Standard layers so that we have predictable layering;
+  a) puts an element as the background of another. Used mostly with <img> so that we can have them as backgrounds and still
+   use the "srcset" attribute and use different sizes of the image, something that we cannot do cross-browser with "background-image". 
+   NOTE that you need to:
+   - use ".background" class in the element we want to have as background;
+   - make sure the parent element has a "position: relative" or other non-static;
+  b) 4 distinct layers;
+6) Mask - puts an element as a mask on top of another. Used mostly with a <div> with a background-image property. NOTE that 
+    you need to:
+    - use ".mask" class in the element we want to have as background;
+    - make sure the parent element has a "position: relative" or other non-static;
+............................................................................................................................*/
+                                /*.................. 1) Taking full row ....................*/
+.fullHSpace { margin-left: auto; margin-right: auto;}                                                                         /*(1)*/
+                                /*.............. 2) Active/inactive buttons ................*/
+.hoverActive:hover, .selected { box-shadow: 0.2rem 0.2rem 0.2rem grey; cursor: pointer; }                                   /*(2)*/
+.hoverNonActive:hover, .nonSelected { box-shadow: none; cursor: default; }
+
+                                /*............. 6) Non-standard properties .................*/
+.antialiased { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }                                     /*(3)*/
+
+                                /*................. 4) Transition property .................*/
+.transFast { transition: all 0.5s; }
+.transMed { transition: all 1s; }
+.transSlow { transition: all 1.5s; }
+
+                                /*............ 5) Layers & background ......................*/
+.background { position: absolute; z-index: -10; inset: 0; }                                                                   /*(5a)*/
+.layer1 { position: absolute; z-index: 10; }                                                                                  /*(5b)*/
+.layer2 { position: absolute; z-index: 100; }                                                                                 /*(5b)*/
+.layer3 { position: absolute; z-index: 1000; }                                                                                /*(5b)*/
+.layer4 { position: absolute; z-index: 10000; }                                                                               /*(5b)*/
+                                /*...................... 6) Mask ...........................*/
+.mask { position: absolute; inset: 0; }
+                                /*.................. 7) Flash messages .....................*/
+.flash-common {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 30%;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  color: white;
+}
+.flash-error { background-color: red; }
+.flash-success { background-color: green; }
+.flash-info { background-color: blue; }
+.flash-confirmation { background-color: grey; }
+table, dl{
+  max-width: 90vw;
+}
+                                /*.................... 8) Additional .......................*/
+body:has(.privPol) footer{
+  display: none;
+}
+
+.pointer { cursor: pointer; }
+.width100 { width: 100%; }
+.width50 { width: 50%; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.space-between { justify-content: space-between; }
+.space-around { justify-content: space-around; }
+.space-evenly { justify-content: space-evenly; }
+.flex-start { justify-content: flex-start; }
+.flex-end { justify-content: flex-end; }
+.column { flex-direction: column; }
+.bold { font-weight: bold; }
+.justify { text-align: justify; }
+.items-start { align-items: flex-start; }
+.items-baseline { align-items: baseline; }
+.items-stretch { align-items: stretch; }
+.content-start { align-content: flex-start; }
+.content-end { align-content: flex-end; }
+.content-baseline { align-content: baseline; }

@@ -1,0 +1,6 @@
+.svg.main {
+  flex: 0 1 5rem; margin: 0.5rem;
+}
+.svg.main .inner {
+  fill: currentColor;
+}
