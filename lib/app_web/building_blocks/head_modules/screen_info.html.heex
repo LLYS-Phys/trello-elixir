@@ -1,0 +1,32 @@
+<%#...................................................... Description ........................................................
+								                ........................... Purpose ..........................
+Get info about the type of screen;
+								                ...................... Render the component ..................
+1) You have to "import AppWeb.BuildingBlocks" to the "layout.ex";
+2) Copy this to where you want to use it (to the "head" of the "root.htmk.heex"):
+											<.screen_info />
+
+								                ...................... Using the component ...................
+This component makes available these Functions in the "globFuncs" object:
+1) "screenType": returns the type of screen based on the resolution we've defined in our "root" layout:
+    - "verySmallScreen" - for mobile;
+    - "smallScreen" - for tablets;
+    - "normal" - for standard screens;
+    - "bigScreen" - for very large screens;
+	                              ....................... Notes & learnings ....................
+............................................................................................................................%>
+<script>
+    globFuncs.screenType = function(){                                                                                                         /*(1c)*/
+        if  ( (window.matchMedia("(max-width: "+ globVars.verySmallScreen).matches)  )  {   
+            return "verySmallScreen"
+            } else {    if  ( (window.matchMedia("(min-width: "+ globVars.bigScreen).matches)  )  {  
+                            return "bigScreen" 
+                            } else {    if  ( (window.matchMedia("(max-width: "+ globVars.smallScreen).matches)  )  {
+                                        return "smallScreen"
+                } else {
+                        return "normalScreen"
+                        }
+            }
+        }
+    };
+</script>
