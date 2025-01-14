@@ -1,0 +1,68 @@
+<%#.................................................... Notes & learnings ....................................................
+1) The language code (see: https://www.w3.org/International/questions/qa-html-language-declarations) in the 'html' element sets
+   the default app language. Mandatory for screen readers and usefull for search engines. Note that if some parts of the app use 
+   a different language, you can add a language attribute with a different value to the element that surrounds that content. It 
+   is set by Plug.Locale in "endpoint.ex";
+2) Standard charset that allows us to support other languages than English;
+3) Best practice for mobile support:
+   i) 'width=device-width' sets the "width" of the page to follow the screen-width of the device;
+   ii) 'initial-scale=1.0' sets the initial zoom level when the page is first loaded by the browser, avoiding differences between
+        devices;
+4) Title - For SEO maximization the total title's lenght should be between 50 and 60 characters. It's composed of 2 parts:
+   a) Soundbyte - last part of the title that is the same for every page and is the more relevant for SEO (NOTE that you need 
+      to directly change it in here);
+   b) Dynamic part - second part of the title that should be customized to the specific page being displayed and NOTE that it 
+      needs some code in each Liveview when mounting;
+5) "phx-track-static" is useful to detect if the client is running on an outdated version of the marked static files. It works 
+   by comparing the static paths sent by the client with the one on the server. NOTE that it needs some code in each Liveview  
+   when mounting and in the "live.html.leex" layout;
+6) Global object container that is used to contain all the global variables and functions under specific NAMESPACES. We declare
+   a namespace by using "NAMESPACE = {}". Then, we can access the NAMESPACE globally and set our values on it as properties using:
+	 "NAMESPACE = { var1:"value", var2:"value", ... }" or "NAMESPACE.VariableName = Value". We distinguish between:
+    a) variables;
+    b) functions;
+    c) LiveView default "Hook" object that we need to use for our component defined hooks have access to it;
+7) "Head_module" components to:
+    a) interact with Local Storage & Cookies;
+    b) detect the type of screen;
+    c) set the styling specific rules for this project;
+    d) set the header and footer "height" and makes sure a "main page" always occupies full screen height;
+8) "Root_modules" components to:
+    a) Cookies policy banner;
+    b) Destak full-screen pop-up;
+............................................................................................................................%>
+<!DOCTYPE html>
+<html lang={@locale}>                                                                                                         <%#(1)%>
+  <head>
+    <meta charset="utf-8" />                                                                                                  <%#(2)%>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />                                                    <%#(3)%>
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <.live_title suffix=" · Telespazio Trello">                                                                               <%#(4a)%>
+      <%= assigns[:page_title] || "Specific page name here" %>                                                                <%#(4b)%>
+    </.live_title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />                                                     <%#(5)%>
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}></script>
+    <script>
+      let globVars = {};                                                                                                      /*(6a)*/
+      let globFuncs = {};                                                                                                     /*(6b)*/
+    </script>
+    <.browser_storage />                                                                                                      <%#(7a)%>
+    <.screen_info />                                                                                                          <%#(7b)%>
+    <.css_layout verySmallScreen="450px" smallScreen="900px" bigScreen="1800px"
+        colorPalette={[
+                        %{name: "black25", value: "rgb(25, 25, 25)"}, %{name: "blackLight", value: "rgb(70, 65, 65)"},
+                        %{name: "grey232", value: "rgb(232, 232, 232)"}, %{name: "greyPink", value: "rgb(232, 224, 224)"},
+                        %{name: "pinkDark", value: "rgb(202, 42, 96)"}, %{name: "pinkMed", value: "rgb(230, 104, 152)"}
+                      ]}
+          defaultSize="15px" defaultColor="var(--blueFacebook)" defaultSizeVerySmallScreen="10px"
+          defaultSizeSmallScreen="12.5px", defaultSizeBigScreen="17.5px"
+          safeFonts={[ "Copperplate" ]} googleFonts={[  "Anton", "Lato", "Acme" ]}
+          fileFonts={[ %{name: "CatCafe", path: "CatCafe.ttf"} ]}
+          defaultFont="var(--Copperplate)"
+    />                                                                                                                        <%#(7c)%>
+    <.page_dimensions headerHeight="3rem" footerHeight="4rem" />                                                              <%#(7d)%>
+  </head>
+  <body>
+      {@inner_content}
+  </body>
+</html>

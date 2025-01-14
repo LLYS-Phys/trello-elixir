@@ -1,0 +1,116 @@
+<%#...................................................... Description ........................................................
+								                ........................... Purpose ..........................
+To define all the core styling rules specific to this project in one place;
+
+								...................... Render the component ..................
+1) You have to "import AppWeb.BuildingBlocks" to the "layout.ex";
+2) Copy this to where you want to use it (to the "head" of the "root.htmk.heex"):
+<.css_layout verySmallScreens="450px" smallScreens="900px" bigScreens="1800px"
+          colorPalette={[
+                          %{name: "black25", value: "rgb(25, 25, 25)"}, %{name: "blackLight", value: "rgb(70, 65, 65)"},
+                          %{name: "grey232", value: "rgb(232, 232, 232)"}, %{name: "greyPink", value: "rgb(232, 224, 224)"},
+                          %{name: "pinkDark", value: "rgb(202, 42, 96)"}, %{name: "pinkMed", value: "rgb(230, 104, 152)"},
+                          %{name: "brownMed", value: "rgb(253, 188, 106)"}, %{name: "brownBrick", value: "rgb(194, 74, 10)"},
+                          %{name: "redYouTube", value: "rgb(205, 32, 31)"}, %{name: "redWine", value: "rgb(144, 32, 98)"},
+                          %{name: "greenLight", value: "rgb(186, 218, 90)"}, %{name: "greenVeryLight", value: "rgb(0, 255, 195)"},
+                          %{name: "blueGreen", value: "rgb(109, 216, 200)"}, %{name: "blueFacebook", value: "rgb(66, 90, 152)"},
+                          %{name: "blueMed", value: "rgb(46,122,188)"}, %{name: "blueDark", value: "rgb(27,84,128)"},
+                          %{name: "blueInput", value: "rgb(0,118,163)"}, %{name: "blueTimeline", value: "rgb(17,169,192)"},
+                          %{name: "blueSpin", value: "rgb(52,152,219)"}, %{name: "redSpin", value: "rgb(231,76,60)"},
+                          %{name: "yellowSpin", value: "rgb(249,201,34)"}, %{name: "tourNumGreen", value: "rgb(153,255,51)"},
+                          %{name: "notFound", value: "rgb(52,73,94)"}, %{name: "notFound1", value: "rgb(55,76,97)"},
+                          %{name: "notFound2", value: "rgb(58,79,100)"}, %{name: "notFound3", value: "rgb(63,84,104)"},
+                          %{name: "lampOn", value: "rgb(241,196,15)"}, %{name: "lampOff", value: "rgb(140,140,140)"}
+                        ]}
+          defaultSize="15px" defaultColor="var(--blueFacebook)" defaultSizeVerySmallScreens="10px"
+          defaultSizeSmallScreens="12.5px", defaultSizeBigScreens="17.5px"
+          safeFonts={[ "Copperplate" ]}, googleFonts={[  "Anton", "Lato", "Acme" ]}
+          fileFonts={[   %{name: "CatCafe", path: "CatCafe.ttf"} ]}
+          defaultFont="var(--Copperplate)"
+    />
+								........................ Using the component .................
+Assign values to each one of these keys when rendering the component:
+	- "verySmallScreens": define the maximum screen "width" in "px" of client to be considered a very small screen;
+	- "smallScreens": define the maximum screen "width" in "px" of client to be considered a small screen;
+	- "bigScreens": define the minimum screen "width" in "px" of client to be considered a big screen;
+	- "colorPalette": list of maps with data for each color we are creating as a CSS variable:
+	- "name": the color name that is used as the "var" name to use it;
+	- "value": the color value;
+	- "defaultSize": the html element "font-size" default value in "px";
+	- "defaultSizeSmallScreens": the "font-size" default value in "px" for small screens;
+	- "defaultSizeBigScreens": the "font-size" default value in "px" for big screens;
+	- "slow/standard/fastTransition": value in seconds for the slow/standard/fast transition as a CSS variable;
+	- "defaultColor": the "color" default value (from the ones defined above);
+	- "safeFonts": list with "names" of Web safe font names that we want to use in our project;
+	- "googleFonts": list with "names" of Google font names that we want to use in our project;
+	- "fileFonts": list of maps with data for each font we have in our "Fonts" folder and want to make available:
+	- "name": the "font-family" name we want to use to call the font within our CSSs;
+	- "path": the path to the file with the fontin our "fonts" folder. We need to pass the file name and extension, like: "lol.ttf".
+				if no "file" value is passed then it's assumed to be a safe font with no file on our server;
+	- "defaultFont": the "Font" default value (from the ones defined above);
+
+	                            ....................... Notes & learnings ....................
+1) Define the color palette to use in the project by using CSS variables at the "root" element level (so that they have global
+   scope), that can be used by using "var(--varName)"" as the CSS value. For example:
+						                                          "background-color: var(--color2);"
+2) Sets the default "color" and "font-size" by defining them at the "html" level, allowing them to cascade down. By using only "rem"
+   units elsewhere, we can change several units by just changing this value. More than that, if we define it using "vw" units and
+   everything specified in "rem" units then everyhting will automatically scale according to the device screen.
+3) Sets the fonts to be used:
+	a) define web safe fonts by using CSS variables at the "root" element level (so that they have global scope), that can be used
+	 	by using "var(--varName)" as the CSS value. For example:
+						                                            "font-family: var(--font2);"
+    b) we need to create a "@font-face" rule for each font we want to make available to use and we have a file;
+	c) the font names are taken from the Google Fonts list: https://fonts.google.com;
+	d) setting the default font by applying it to the body and making it cascade to all elements;
+............................................................................................................................%>
+<script>
+	globVars.verySmallScreen = "<%=@verySmallScreen%>";
+	globVars.smallScreen = "<%=@smallScreen%>";
+	globVars.bigScreen = "<%=@bigScreen%>"
+</script>
+<style>
+	:root {												/*.....................  ...... Color palette ......................*//*(1)*/
+			<%= for i <- @colorPalette do %>
+		--<%=i.name%>: <%=i.value%>;
+			<%end%>
+	}
+	html {												/*........................... Default units ........................*//*(2)*/
+		font-size: <%= @defaultSize %>;
+      	color: <%= @defaultColor %>;
+     }
+ 	@media (max-width: <%= @verySmallScreen %>) {
+	  html {
+	    font-size: <%= @defaultSizeVerySmallScreen %>;
+	  }
+	}
+	@media (min-width: <%= @verySmallScreen %>) and (max-width: <%= @smallScreen %>) {
+	  html {
+	    font-size: <%= @defaultSizeSmallScreen %>;
+	  }
+	}
+	@media (min-width: <%= @bigScreen %>) {
+	  html {
+	  	font-size: <%= @defaultSizeBigScreen %>;
+		}
+	}
+   :root {	                                       		   		 /*.................. Allowed fonts ........................*/
+			<%= for i <- @safeFonts do %>
+		--<%= i %>: <%= i %>;        											         									  /*(3a)*/
+			<%end%>
+	}
+
+         <%= for i <- @fileFonts do %>
+	@font-face {			                           				                                                          /*(3b)*/
+		font-family: <%=i.name%>;
+		src: url(/fonts/<%=i.path%>);
+	}
+		   <%end%>
+
+      <%= for i <- @googleFonts do %>                                                                                  		  <%#(3c)%>
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=<%= i %>">
+	   <%end%>
+	body {						                                 		                                                      /*(3d)*/
+      font-family: <%= @defaultFont %>;
+    }
+</style>
